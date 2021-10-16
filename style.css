@@ -1,0 +1,167 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.notes{
+  width: 90vw;
+  height: 98vh;
+  display: flex;
+  margin: auto;
+}
+
+.notes_sidebar{
+  border: 3px solid gray;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 2px;
+  border-radius: 5px;
+  height: 100%;
+  height: 100%;
+}
+
+.notes_description_container {
+  border: 3px solid gray;
+  width: 75%;
+  border-radius: 5px;
+  padding: 5px;
+  height: 100%;
+}
+
+.notes_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 95%;
+  overflow: auto;
+}
+
+.notes_add_notes_btn{
+  background-color: rgb(29, 25, 90);
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 5px; 
+}
+
+.notes_item {
+  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+.notes_item_heading {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notes_item_description{
+  margin-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.notes_item--active {
+  background: #f2ecec;
+  /* transition: background 500ms ease-in; */
+}
+
+.notes_item:hover {
+  background: #f2ecec;
+}
+
+.notes_description_heading{
+  margin: 0;
+  padding: 5px;
+}
+
+.notes_description{
+  overflow: auto;
+  height: 95%;
+  text-align: justify;
+}
+
+.add_note_modal_container {
+  display: none;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_note_modal {
+  border: 1px solid black;
+  position: fixed; 
+  left: 50%;
+  width: 30%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+.add_note_modal_header {
+  /* display: flex;
+  justify-content: start; */
+  margin-left: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.add_note_modal_header_text {
+  margin-left: 50px;
+}
+
+.add_note_modal_body {
+  /* display: flex;
+  justify-content: center; */
+  margin-left: 50px;
+}
+
+.add_note_modal_footer {
+  margin: 5px 55px;
+}
+
+.modal_btn {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.note_heading_input {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.note_heading_textarea {
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.add_note_modal_footer {
+  margin-bottom: 20px;
+}
+
+.note_heading_textarea{
+  width: 90%;
+}
+
+.edit-icon{
+  margin-left: 15px;
+  cursor: pointer;
+}

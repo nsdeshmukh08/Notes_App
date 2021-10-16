@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/fontawesome/css/solid.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="notes">
+    <div class="notes_sidebar">
+      <button class="notes_add_notes_btn">
+        Add Notes
+      </button>
+      <ul class="notes_list">
+        <!-- <li class="notes_item notes_item--active">
+          <h4 class="notes_item_heading">Heading 4</h4>
+          <div class="notes_item_description">
+            Note one Note one Note one Note one Note one Note one
+            Note one Note one Note one Note one Note one Note one
+            Note one Note one Note one Note one Note one Note one
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    <div class="notes_description_container">
+      <!-- <h2 class="notes_description_heading">
+        Heading for Description
+      </h2>
+      <p class="notes_description">
+        &nbsp;  &nbsp;  &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto omnis id delectus a atque voluptas neque asperiores? Aut corporis provident laboriosam commodi tempora ratione quam! Illo dolorem tempore reprehenderit!
+        Ipsa quos beatae, voluptate excepturi impedit at libero sunt veniam nostrum saepe ab, possimus blanditiis corrupti quisquam illo cum vero eveniet dolores aspernatur unde nisi accusamus totam recusandae. Recusandae, fugiat.
+        Recusandae aliquid illum tenetur dolores ipsa vitae officiis et quas corrupti obcaecati veniam repudiandae pariatur dignissimos quis sed non, suscipit velit modi qui sequi nostrum, corporis, doloribus mollitia. Totam, tenetur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto omnis id delectus a atque voluptas neque asperiores? Aut corporis provident laboriosam commodi tempora ratione quam! Illo dolorem tempore reprehenderit!
+        Ipsa quos beatae, voluptate excepturi impedit at libero sunt veniam nostrum saepe ab, possimus blanditiis corrupti quisquam illo cum vero eveniet dolores aspernatur unde nisi accusamus totam recusandae. Recusandae, fugiat.
+        Recusandae aliquid illum tenetur dolores ipsa vitae officiis et quas corrupti obcaecati veniam repudiandae pariatur dignissimos quis sed non, suscipit velit modi qui sequi nostrum, corporis, doloribus mollitia. Totam, tenetur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto omnis id delectus a atque voluptas neque asperiores? Aut corporis provident laboriosam commodi tempora ratione quam! Illo dolorem tempore reprehenderit!
+        Ipsa quos beatae, voluptate excepturi impedit at libero sunt veniam nostrum saepe ab, possimus blanditiis corrupti quisquam illo cum vero eveniet dolores aspernatur unde nisi accusamus totam recusandae. Recusandae, fugiat.
+        Recusandae aliquid illum tenetur dolores ipsa vitae officiis et quas corrupti obcaecati veniam repudiandae pariatur dignissimos quis sed non, suscipit velit modi qui sequi nostrum, corporis, doloribus mollitia. Totam, tenetur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto omnis id delectus a atque voluptas neque asperiores? Aut corporis provident laboriosam commodi tempora ratione quam! Illo dolorem tempore reprehenderit!
+        Ipsa quos beatae, voluptate excepturi impedit at libero sunt veniam nostrum saepe ab, possimus blanditiis corrupti quisquam illo cum vero eveniet dolores aspernatur unde nisi accusamus totam recusandae. Recusandae, fugiat.
+        Recusandae aliquid illum tenetur dolores ipsa vitae officiis et quas corrupti obcaecati veniam repudiandae pariatur dignissimos quis sed non, suscipit velit modi qui sequi nostrum, corporis, doloribus mollitia. Totam, tenetur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto omnis id delectus a atque voluptas neque asperiores? Aut corporis provident laboriosam commodi tempora ratione quam! Illo dolorem tempore reprehenderit!
+        Ipsa quos beatae, voluptate excepturi impedit at libero sunt veniam nostrum saepe ab, possimus blanditiis corrupti quisquam illo cum vero eveniet dolores aspernatur unde nisi accusamus totam recusandae. Recusandae, fugiat.
+      </p> -->
+    </div>
+  </div>
+
+  <div class="add_note_modal_container">
+    <div class="add_note_modal">
+      <div class="add_note_modal_header">
+        <h3 class="add_note_modal_header_text">Add a Note</h3>
+      </div>
+      <div class="add_note_modal_body">
+        <form action="">
+          <label for="fname">Note Heading</label><br>
+          <input type="text" class="note_heading_input"><br>
+          <span class="error heading-error">Please add heading</span> <br>
+          <label for="fname">Description</label><br>
+          <textarea rows="4" class="note_heading_textarea"></textarea><br>
+          <span class="error description-error">Please add Description</span> <br>
+        </form>
+      </div>
+      <div class="add_note_modal_footer">
+        <button class="modal_btn modal_btn_submit">Submit</button>
+        <button class="modal_btn modal_btn_close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
